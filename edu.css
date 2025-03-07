@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;  /* Dark background matching the original color scheme */
+    color: white;  /* White text to contrast with dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full height of the viewport */
+    text-align: center;
+}
+.buy-button {
+    padding: 10px 15px;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Coming Soon Section */
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.coming-soon-content {
+    background-color: #333;  /* Slightly lighter background for the content box */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.coming-soon h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #00aaff;  /* Accent color from your theme */
+}
+
+.coming-soon p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff;
+}

@@ -1,0 +1,110 @@
+/* General Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex: 1;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.navbar .logo a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-links a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Product Information Section */
+.product-info {
+    padding: 40px 20px;
+    text-align: center;
+    flex: 1; /* Ensures this section expands and pushes footer down */
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center; /* Centers the text inside */
+}
+
+.product-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    max-width: 600px;
+}
+
+.product-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+.buy-button {
+    padding: 12px 20px;
+    background-color: #00aaff;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #0077cc;
+}
+
+/* Footer Section */
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* This pushes the footer to the bottom */
+}
+
+.footer-links a,
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
